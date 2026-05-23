@@ -16,17 +16,32 @@ O Novo CR é uma plataforma de educação baseada em dados rodando em produção
 
 ### G2. Créditos OpenAI via Researcher Access Program
 
-- **Meta:** acesso a créditos da API OpenAI pra pesquisa.
+- **Meta:** até **$1.000** em créditos da API OpenAI por 12 meses.
 - **Programa:** OpenAI Researcher Access Program.
-- **Critério-chave:** afiliação acadêmica (a confirmar — página retornou 403 no primeiro fetch).
-- **Estratégia de encaixe:** co-aplicação com Valdemar como pesquisador principal.
+- **Critério-chave:** "active affiliation to an academic institution or other research organization" — OpenAI declara interesse especial em pesquisadores "with limited financial and institutional resources".
+- **Estratégia de encaixe:** co-aplicação com Valdemar como pesquisador principal; afiliação FGV/EPGE no formulário.
+- **Ciclo:** revisão trimestral (março, junho, setembro, dezembro), com 4–6 semanas de turnaround após a janela.
+- **Observação:** valor baixo (US$ 1K). É créditos de "validação" mais que financiamento real — pode complementar o Anthropic mas não substitui.
 
-### G3. Créditos Google Cloud
+### G2b. Créditos OpenAI via OpenAI for Startups (alternativa)
 
-- **Meta:** créditos GCP / Gemini.
-- **Duas vias possíveis:**
-  - **Pesquisa:** Google Cloud Research Credits — limitado a faculty/PhD/postdoc; aplicação via Valdemar ou Cysne com Novo CR como projeto.
-  - **Startup:** Google Cloud for Startups (referência a "até $350K por 2 anos para AI startups"); depende de incorporação formal ou parceria FGV Ventures.
+- **Meta:** $2.500–$5.000 em créditos da API OpenAI.
+- **Critério-chave:** startup formalmente incorporada, menos de 5 anos, produto funcional + tração (waitlist, beta users), integração real da API OpenAI no produto.
+- **Status atual:** Novo CR não está incorporado. Travado até decisão sobre incorporação.
+
+### G3. Créditos Google Cloud — três tiers possíveis
+
+- **Meta principal:** créditos GCP / Gemini.
+- **Tiers existentes (Google for Startups Cloud Program):**
+
+  | Tier | Crédito | Requisito-chave | Fit Otavio |
+  |---|---|---|---|
+  | **Start** | $2.000 + $200 training (12 meses) | Pré-funded, <5 anos, MVP | Possível — não exige VC. Valor baixo. |
+  | **Scale** | $200.000 | Seed–Series A de VC institucional (Series A nos últimos 12 meses) | Travado — sem VC funding |
+  | **AI Tier** | até $350.000 / 2 anos (ano 1 100% até $250K + $150K extra AI; ano 2 20% até $100K) | AI-first usando Gemini + seed–Series A VC | Travado — sem VC funding |
+
+- **Restrição crítica:** "Google does not accept educational institutions, government entities, nonprofits" — se Novo CR for descrito como projeto FGV/governo, perde elegibilidade. Solução: incorporar separadamente.
+- **Via paralela — pesquisa:** Google Cloud Research Credits (limitado a faculty/PhD/postdoc) — aplicação via Valdemar como aplicante principal. Valor não publicado abertamente; aplicação via Google Form, exige proposta de pesquisa (250 palavras) + GCP pricing calculator + Billing Account ID. Créditos válidos por 365 dias a partir do resgate.
 
 ### G4. Aceleradoras (médio prazo)
 
@@ -46,21 +61,34 @@ O Novo CR é uma plataforma de educação baseada em dados rodando em produção
 
 ## Mapeamento Programa × Elegibilidade
 
-| Programa | Elegibilidade-chave | Status Otavio | Caminho de aplicação |
-|---|---|---|---|
-| Anthropic AI for Science | Pesquisador + instituição | Alumni FGV + apoio de faculty | Co-aplicação via Valdemar / Cysne |
-| OpenAI Researcher Access | Afiliação acadêmica | Mesmo | Co-aplicação via Valdemar |
-| OpenAI Startups | Startup incorporada | Não incorporado | Depende de FGV Ventures ou incorporação |
-| Google Cloud Research Credits | Faculty/PhD/postdoc | Não direto | Valdemar como aplicante principal |
-| Google Cloud for Startups | Startup | Não incorporado | Mesmo que OpenAI Startups |
-| Google for Startups Accelerators | Series A+ | Pré-startup | Não fit agora |
-| Gemini Startup Forum | Seed–Series A | Pré-startup | Não fit agora |
-| FGV Ventures batch 20 | MVP validado | MVP em produção | Em andamento |
+| Programa | Crédito | Elegibilidade-chave | Status Otavio | Prioridade |
+|---|---|---|---|---|
+| Anthropic AI for Science | até $20K / 6mo | Pesquisador + instituição | Alumni FGV + apoio faculty | **Alta** (via Valdemar/Cysne) |
+| OpenAI Researcher Access | até $1K / 12mo | Afiliação acadêmica + recursos limitados | Mesmo caminho | Média (valor baixo) |
+| OpenAI for Startups | $2.5K–$5K | Startup incorporada, <5 anos | Não incorporado | Baixa (travado) |
+| Google Cloud Start | $2K + $200 training | <5 anos, pré-funded, MVP | Possível com incorporação leve | Média (valor baixo) |
+| Google Cloud Scale | $200K | Seed–Series A VC institucional | Sem VC | Baixa (travado) |
+| Google Cloud AI Tier | até $350K / 2yr | AI-first com Gemini + VC | Sem VC + restrição edu/gov | Baixa (travado + restrição) |
+| Google Cloud Research Credits | não publicado | Faculty/PhD/postdoc | Não direto | Média (via Valdemar) |
+| Google for Startups Accelerators | Equity-free + créditos | Series A+ | Pré-startup | Não fit agora |
+| Gemini Startup Forum | Networking | Seed–Series A | Pré-startup | Não fit agora |
+| FGV Ventures batch 20 | Aceleração 4 meses | MVP validado | Em andamento | **Em curso** |
 
 ## Cronograma Estratégico
 
-- **Próximas 4 semanas:** Anthropic AI for Science (próximo ciclo mensal).
+- **Próximas 4 semanas:** Anthropic AI for Science (ciclo mensal — primeira segunda). Esse é o ÚNICO programa com valor alto sem precisar incorporar nem ter VC.
+- **Junho:** próxima janela do OpenAI Researcher Access (revisão trimestral). Submeter em paralelo com Anthropic.
 - **Junho:** Rio Web Summit (8–11), networking com aceleradoras.
-- **Julho:** submissão CNPq Jovem Cientista (linha 3, IA e Educação) — gera credencial de pesquisa que destrava as 3 vias acadêmicas.
-- **Pós-CNPq:** OpenAI Researcher Access + Google Cloud Research Credits via Valdemar.
-- **2027:** implantação em escola FGV abre a porta da incorporação e dos tracks de startup.
+- **Julho:** submissão CNPq Jovem Cientista (linha 3, IA e Educação) — gera credencial de pesquisa que reforça as 3 vias acadêmicas.
+- **Pós-CNPq:** Google Cloud Research Credits via Valdemar.
+- **Setembro:** próxima janela trimestral OpenAI (se a primeira tentativa não der).
+- **2027:** implantação em escola FGV abre porta pra incorporação. Decisão estratégica: incorporar para destravar Google Scale ($200K), Google AI Tier ($350K), OpenAI Startups ($2.5K–$5K), ou continuar como projeto pessoal de pesquisa.
+
+## Observação sobre restrição educacional/governamental
+
+O Google Cloud AI Tier exclui "educational institutions, government entities, nonprofits". Otavio é funcionário da SUBDEIS (governo) e o projeto tem apoio FGV (educação). Pra qualificar nos tiers Scale e AI do Google, será necessário:
+1. Incorporar uma empresa separada (Otavio como sócio)
+2. Manter o relacionamento FGV como parceria de pesquisa, não como propriedade institucional
+3. Linkar a empresa a uma aceleradora reconhecida (FGV Ventures se entrar no batch 20, ou outra)
+
+Para Anthropic AI for Science e Google Research Credits e OpenAI Researcher Access, a afiliação acadêmica é PRO, não restrição.
