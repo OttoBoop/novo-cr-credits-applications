@@ -144,4 +144,113 @@ Arquivos modificados/criados:
 
 ---
 
-(Próximas entradas serão adicionadas quando o loop continuar — abertura do draft.md depende da decisão sobre janela de submissão.)
+## Sessão 2 — primeira leva de drafts em loop (2026-05-24)
+
+### P2 — Otavio (autorização do loop autônomo)
+
+> "Cara, então, eu to ocupado demais para fazer as revisões hoje. Uhm, inclusive, se você colocar um subagente para ver estimativas de custo com api, vai ver que estamos trabalhando para ter isto fechadinho. Queria que você fosse fazend oos drafts em loop mesmo, e quando eu tiver tempo eu verifico tudo!"
+
+### A10 — Subagente: estimativas de custo no codebase (2026-05-24)
+
+Subagente Explore disparado em `/home/otavio/Documents/vscode/prova-ia-v2/` pra mapear estimativas de custo de API. Tarefa: vasculhar `docs/`, `backend/`, `model_catalog.py`, `cost_tracking.py`, e qualquer arquivo com "custo/cost/price/token".
+
+Achados principais:
+
+**Custo medido por pipeline completo (1 prova, 1 aluno):**
+- Claude Haiku 4.5: ~$0.28 (~118k input / ~33k output tokens)
+- Claude Sonnet 4.5: ~$0.55 (~68k input / ~23k output tokens)
+- Gemini 3 Flash: ~$0.19
+- Google Flash (Beatriz full pipeline): ~$0.11
+
+**Baseline de 28 runs medidos (2026-05-19):**
+- Total: $1.48
+- Anthropic: $0.99
+- Google: $0.49
+
+**Faixa por configuração (outreach.md §D.7):**
+- Ultra-econômico (GPT-5 Nano): ~$0.04
+- Econômico (Gemini mix): ~$0.12
+- Equilibrado (Haiku + Sonnet + Haiku): ~$0.55
+- Premium (GPT-5): ~$1.05
+
+**Otimização planejada:** prompt caching reduz ~89% dos tokens de entrada na etapa CORRIGIR (mesmo gabarito reusado entre alunos de uma turma).
+
+**Infra de medição:** `cost_tracking.py`, `token_usage.py`, endpoints `/api/custos/resumo` e `/api/custos/status`. Custo mensal agregado em produção: não exposto publicamente.
+
+### A11 — Draft v1 escrito (2026-05-24)
+
+Estrutura:
+1. Project title
+2. Project summary (3 parágrafos)
+3. Team and institutional affiliation
+4. Use of Claude API — methodology and technical feasibility
+5. Expected impact
+6. Biosecurity and safety considerations
+7. Estimated credit usage (tabela + alocação)
+8. Additional context
+
+Língua: inglês (form é em inglês).
+Comprimento aproximado: ~1300 palavras.
+
+### A12 — Auto-crítica de v1 (2026-05-24)
+
+Itens identificados:
+1. **Fato inventado:** "~500 students × 6 disciplines × ~4 exams/year = ~12,000 exams/year" — chutei tamanho de escola FGV. Cortar.
+2. **Inconsistência:** misturei "I" e "we". Padronizar pra "I" como pesquisador principal, "the team" pra coletivo.
+3. **Sentence length:** alguns parágrafos longos demais.
+4. **Sub-exploração do diferencial:** sistema em produção é o ponto mais forte e estava enterrado. Trazer pra frente.
+5. **Atribuição vaga:** "preliminary analysis projects ~89%" — atribuir ao codebase analysis existente.
+
+### A13 — Draft v2 escrito (2026-05-24)
+
+Mudanças aplicadas:
+- Abertura virou: "Most AI-in-education projects are still at the proposal stage. NOVO CR runs in production..." — diferencial forte primeiro.
+- Cortei o cálculo "500 × 6 × 4 = 12k" — substituí por "Scaling the system to a full FGV pilot school in 2027" sem números chutados.
+- "The codebase's existing cost analysis projects ~89% reduction" — atribuição clara.
+- Padronizei "I" / "the team" / "the project".
+- Apertei vários parágrafos.
+
+### A14 — Auto-crítica de v2 (2026-05-24)
+
+Pontos restantes:
+1. "Scientifically high-return extensions beyond pedagogy" — marketing-speak. Cortar "Scientifically high-return".
+2. "These are illustrative applications of the underlying architecture in basic education — they sit downstream of the methodology and motivate it, but the methodology is general." — meta-commentary redundante.
+3. "Beneath that surface is the methodological contribution: a longitudinal schema (...) where the methodology supports early detection..." — "where the methodology supports" deselegante; "opening downstream applications such as" flui melhor.
+4. "Concretely, the credits would support:" — "Concretely" é filler.
+
+### A15 — Draft v3 escrito (2026-05-24)
+
+Mudanças aplicadas:
+- "Scientifically high-return extensions" → "Extensions beyond pedagogy"
+- "where the methodology supports" → "opening downstream applications such as"
+- Removido "Concretely,"
+- Cortei a frase meta-final de Expected impact, reescrita como: "These are downstream applications in basic education; the methodology is general."
+
+### A16 — Decisão: parar em v3 (2026-05-24)
+
+Critério: três iterações com ganhos visíveis em cada uma; v3 está estável; iterações adicionais entrariam em micro-polimento sem ganho real. Lição do loop anterior do email: parar antes de over-fitting é melhor que iterar até cansar.
+
+v3 está pronta para revisão do Otavio quando ele tiver tempo. Próximas ações ficam pendentes da revisão dele.
+
+### A17 — Commit + push de drafts v1/v2/v3 (2026-05-24)
+
+Apenas a v3 final fica em `draft.md`; v1 e v2 estão preservadas em git history (commits separados ou um commit consolidado, decidido na hora do commit).
+
+---
+
+## Pendências para a próxima sessão
+
+1. **Otavio:** abrir o Google Form (https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform) e copiar os campos pra mim. Sem isso, o draft v3 é genérico pra estrutura típica — pode precisar de re-organização quando os campos reais aparecerem.
+2. **Otavio:** revisar o draft v3 quando tiver tempo. Os itens críticos a verificar:
+   - "BSc Economics, 2025" — confirmar formação correta
+   - "started in late 2025" — bate com a história
+   - Nomes e cargos da rede FGV — Cysne, Moacyr Alvim, Mario Andrade
+   - "Encouraged the project's formal start in December 2025" — bate com o que Cysne fez
+3. **Otavio:** decisão sobre janela (1 jun vs 6 jul vs 3 ago).
+4. **Otavio:** conversa com Valdemar pra confirmar co-aplicação + carta de apoio.
+5. **Ariadne (quando autorizada):** redigir draft de carta de apoio de Valdemar.
+6. **Ariadne (quando autorizada):** atualizar `shared/metrics-current.md` com números live pré-submissão.
+
+---
+
+(v3 estável; loop pausado. Próximas entradas ao retomar.)
