@@ -133,7 +133,53 @@ Status: draft v3 stable after autonomous loop. Loop paused pending your review.
 
 ## Google Cloud Research Credits
 
-(populated after Phase 2)
+Status: draft v3 stable (220-word proposal under the 250 limit). Loop paused. Operational pendencies are heavy (billing account + pricing calculator).
+
+### 🔴 Critical
+
+- [ ] **Valdemar Pinho Neto agrees to be applicant of record (Faculty).**
+  - Source: program eligibility — "limited to faculty, PhD students and postdoctoral researchers"; alumni not on the list of accepted job titles.
+  - Why this is different: at OpenAI, Valdemar as PI is recommended; at GCP, it's the only path. The credits go INTO FGV's billing account on Valdemar's representation.
+  - Action: explicit ask + Faculty representation Valdemar must sign at submission.
+
+- [ ] **Obtain Google Cloud Billing Account ID — institutional FGV (max 25 characters).**
+  - Source: form requires this field; faculty representation states credits used "on behalf of the educational entity".
+  - Action: coordinate with EPGE financial/IT to either reuse an existing FGV institutional GCP billing account or open one.
+  - Risk: this can take weeks to set up via institutional channels. May block submission if not ready.
+  - Where used: form identification fields.
+
+- [ ] **Generate expected cost estimate via Google's pricing calculator + share URL.**
+  - Source: form requires this URL.
+  - Tools needed: Google's pricing calculator (https://cloud.google.com/products/calculator) configured for projected Gemini API usage.
+  - My current rough estimate: ~5,000–10,000 exam-equivalents at ~$0.19 Gemini Flash full pipeline.
+  - Action: someone with GCP access creates a saved estimate; URL goes into the form.
+
+### 🟡 Verify (fact-checks)
+
+- [ ] **Email field — Valdemar's institutional FGV email.**
+  - My placeholder: "(Valdemar's @fgv.br institutional address)".
+  - Form prefers "institution account".
+
+- [ ] **Project start date — when?**
+  - Implication: activation must happen within 60 days of start date.
+  - Recommendation: align with grant decision (start ~30 days after expected notification).
+
+- [ ] **Department name in form — "EPGE — Graduate School of Economics" — is this FGV's accepted English name?**
+  - My inference: from public FGV materials.
+
+### 🔵 Decide
+
+- [ ] **Field of Research: Computer Science vs Social Sciences?**
+  - My recommendation: **Computer Science** (Google emphasizes CS for AI research; consistent with how Anthropic/OpenAI applications frame the work).
+  - Alternative: Social Sciences (more aligned with the longitudinal education aspect; less aligned with Google's typical research credit awards which lean technical).
+
+- [ ] **Submission timing.**
+  - Application is rolling — no specific window.
+  - My recommendation: submit **after** the billing account is set up (probably 1–2 months from now). Don't submit incomplete.
+
+- [ ] **Award amount expectations.**
+  - Google doesn't publish the amount per applicant. Public reports vary widely ($5K–$50K typical for academic AI research; outliers higher).
+  - Implication for narrative: don't assume amount; ask for what the project actually needs (which the timeline + costs imply).
 
 ---
 
