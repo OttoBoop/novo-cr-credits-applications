@@ -52,3 +52,21 @@ Aceleradora da FGV EAESP (São Paulo). Coordenadoras: **Isabel Pinheiro** e **Lu
 
 1. Aguardar retorno de Isabel/Luciana ao email enviado.
 2. Decidir efetivamente sobre inscrição no batch 20 baseado no retorno.
+
+## Status (2026-05-24)
+
+**Email enviado (v6, escrito pelo Otavio em pessoa, 2026-05-15).** Aguardando resposta de Isabel e Luciana.
+
+Conteúdo do email v6 e dossiê estratégico vivem em `prova-ia-v2/docs/contatos/fgv_ventures.md` e o email final em prova-ia-v2/. Não duplicado aqui.
+
+### Por que o material não vive neste repo
+
+- O email já foi escrito e enviado — não há draft pra iterar aqui
+- O dossiê estratégico foi construído antes deste repo existir
+- Duplicar quebraria o princípio de SOURCES (single source of truth)
+
+### Quando a decisão volta a este repo
+
+- **Se Isabel/Luciana responderem com interesse:** abrir nova subseção em REVIEW.md sobre próximos passos (entrevista, dossiê adicional, etc.)
+- **Se a aceitação no batch 20 acontecer:** isto destrava a decisão de incorporação, que abre os caminhos Google Cloud Start, OpenAI for Startups, etc. Atualizar `programs/google-cloud-start/` e similares.
+- **Se rejeitarem:** registrar o feedback em REVIEW.md como input pra futuras aplicações a aceleradoras (Microsoft Founders Hub, AWS Activate, NVIDIA Inception, etc.).

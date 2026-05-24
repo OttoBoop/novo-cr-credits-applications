@@ -208,7 +208,17 @@ Status: **blocker fundamental** — programa requer empresa incorporada. Otavio 
 
 ## FGV Ventures batch 20
 
-(populated after Phase 4)
+Status: **email v6 enviado em 2026-05-15.** Aguardando resposta de Isabel Pinheiro e Luciana Cualheta.
+
+### 🔵 Decide (after their response)
+
+- [ ] **If they respond with interest:** próximos passos (entrevista, dossiê adicional) — abrir nova subseção aqui.
+- [ ] **If they accept into batch 20:** isto destrava decisão de incorporação. Re-abrir `programs/google-cloud-start/` e `openai-startups/` (que ainda não existe — criar se for ativar startup track).
+- [ ] **If they reject:** registrar feedback aqui; usar como input pra Microsoft Founders Hub / AWS Activate / NVIDIA Inception.
+
+### 🟡 Verify (passivo)
+
+- [ ] **Material canônico:** `prova-ia-v2/docs/contatos/fgv_ventures.md` (dossiê estratégico) + email v6 final em `prova-ia-v2/docs/contatos/`. Não duplicar aqui.
 
 ---
 

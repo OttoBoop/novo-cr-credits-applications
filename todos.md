@@ -1,37 +1,28 @@
 # Todos — Novo CR Credits Applications
 
-## Imediato (próxima sessão)
+> Itens detalhados pra revisão estão em [`REVIEW.md`](REVIEW.md). Este arquivo carrega só a visão macro de próximos passos.
 
-1. Refazer fetch das URLs que falharam ou truncaram:
-   - https://openai.com/form/researcher-access-program/ (HTTP 403)
-   - https://openai.com/startups/ (HTTP 403)
-   - https://cloud.google.com/startup/benefits (conteúdo truncado)
-   - https://cloud.google.com/startup (conteúdo truncado)
-   - Estratégia alternativa: WebSearch + páginas indexadas, ou pedir pra Otavio colar conteúdo
-2. Criar pasta `applications/` com um `.md` por programa-alvo (G1–G4):
-   - `applications/anthropic-ai-for-science.md`
-   - `applications/openai-researcher-access.md`
-   - `applications/openai-startups.md`
-   - `applications/google-cloud-research-credits.md`
-   - `applications/google-cloud-for-startups.md`
-   - `applications/fgv-ventures-batch-20.md` (já em andamento)
-3. Criar pasta `shared/`:
-   - `shared/project-description.md` — 1 página científica reusável
-   - `shared/team-credentials.md` — Otavio + Valdemar + Cysne + Moacyr + Mario
-   - `shared/metrics-snapshot.md` — números atuais do sistema (atualizado mensalmente)
+## Status atual (2026-05-24)
 
-## Próximas 2 semanas
+### Drafts completos
 
-4. Conversa com Valdemar sobre co-aplicação em programas de pesquisa.
-5. Draft da aplicação Anthropic AI for Science.
-6. Aguardar retorno de Isabel/Luciana (FGV Ventures) e decidir sobre batch 20.
+- ✅ **Anthropic AI for Science** — draft v3 estável ($20K target). Aguarda revisão.
+- ✅ **OpenAI Researcher Access** — draft v3 estável ($1K target). Aguarda revisão.
+- ✅ **Google Cloud Research Credits** — draft v3 com proposal de 220 palavras. Aguarda revisão + billing account institucional.
+- ⏸️ **Google Cloud Start** — v1 esqueletal. Bloqueado por decisão de incorporação.
+- ⏸️ **FGV Ventures batch 20** — email v6 enviado, aguardando resposta de Isabel/Luciana.
 
-## Médio prazo (após CNPq julho)
+### Próximas ações (não bloqueantes)
 
-7. Submeter aplicações de pesquisa (OpenAI Researcher Access + Google Research Credits).
-8. Decidir incorporação se o track de startup virar prioridade.
+1. **Quando Otavio tiver tempo:** abrir [`REVIEW.md`](REVIEW.md) e ir resolvendo os itens checkboxados.
+2. **Quando FGV Ventures responder:** decidir incorporação, destravar Google Start + OpenAI Startups.
+3. **Quando os form fields reais estiverem disponíveis** (você logado em smapply / Google Form Anthropic / portal Google Research): readaptar os drafts.
+4. **Antes de qualquer submissão real:** atualizar `shared/metrics-current.md` com números live do site.
 
-## Backlog / a investigar
+## Backlog (não iniciado)
 
-9. Outros programas que podem fazer sentido (Microsoft for Startups Founders Hub, AWS Activate, NVIDIA Inception) — pesquisar quando os 3 primeiros estiverem submetidos.
-10. Editais brasileiros (FINEP, FAPERJ, FAPESP) — mapear depois.
+- Microsoft for Startups Founders Hub — alternativa pós-incorporação
+- AWS Activate — alternativa pós-incorporação
+- NVIDIA Inception — específico pra startups AI
+- Editais brasileiros — FINEP, FAPERJ, FAPESP (precisam de pesquisa adicional)
+- Outros programas trimestrais OpenAI / Anthropic se forem criados

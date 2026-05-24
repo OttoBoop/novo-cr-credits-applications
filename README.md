@@ -2,6 +2,8 @@
 
 Workspace de captação para o Novo CR (plataforma de educação baseada em dados, em produção em ia-educacao-v2.onrender.com). Aplicações a programas de créditos gratuitos de provedores de IA e aceleradoras.
 
+> **👉 [REVIEW.md](REVIEW.md) é onde está consolidado tudo que precisa da sua atenção.** Comece por ali quando voltar.
+
 ## Princípio de afiliação
 
 Otavio aplica como **cidadão privado + alumni EPGE/FGV (2025)**.
@@ -16,24 +18,25 @@ Detalhe em [shared/framing-principle.md](shared/framing-principle.md).
 
 ```
 .
+├── README.md
+├── REVIEW.md                  # ⭐ Itens consolidados pra revisão do Otavio
 ├── long_term_plan.md          # Objetivos de longo prazo, valores, cronograma
 ├── todos.md                   # Ações imediatas e backlog
+├── SOURCES.md                 # Mapa de ponteiros pra prova-ia-v2/docs/
 │
 ├── shared/                    # Insumos canônicos pra qualquer aplicação
-│   ├── framing-principle.md   # A regra cidadão privado / alumni / professor signatário
+│   ├── framing-principle.md   # Regra: cidadão privado / alumni / professor signatário
 │   ├── team-and-credentials.md # Otavio + rede acadêmica FGV
 │   ├── metrics-current.md     # Números do site + apresentação
 │   ├── voice-anchors.md       # Quotes verbatim do Otavio (não inventar voz)
 │   └── project-description.md # Peça canônica de 1 página
 │
-├── programs/                  # Uma pasta por programa
-│   ├── anthropic-ai-for-science/
-│   ├── openai-researcher-access/
-│   ├── google-cloud-research-credits/
-│   ├── google-cloud-start/
-│   └── fgv-ventures-batch-20/
-│
-└── SOURCES.md                 # Mapa de ponteiros pra prova-ia-v2/docs/
+└── programs/                  # Uma pasta por programa
+    ├── anthropic-ai-for-science/      # draft v3 (priority — $20K)
+    ├── openai-researcher-access/      # draft v3 ($1K)
+    ├── google-cloud-research-credits/ # draft v3 (250-word proposal)
+    ├── google-cloud-start/            # v1 esqueletal (bloqueado por incorporação)
+    └── fgv-ventures-batch-20/         # apenas status (material em prova-ia-v2/)
 ```
 
 ## Como usar (loop de aplicação)

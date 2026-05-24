@@ -38,3 +38,17 @@ Estes ficam onde estão; aplicações usam por referência ou anexo.
 - **Atualizar `metrics-current.md`** antes de cada aplicação (comando no próprio arquivo).
 - **Se uma fonte muda** em `prova-ia-v2/`, atualizar os derivados aqui no mesmo commit.
 - **Não mover material do `prova-ia-v2/`** pra cá — esse repo é overlay de captação, não substituto do código/docs do produto.
+
+## Programs/ — fontes web e nível de loop
+
+| Programa | Fontes primárias | Nível de loop fechado |
+|---|---|---|
+| Anthropic AI for Science | support.claude.com + anthropic.com/ai-for-science-program-rules + anthropic.com/news/ai-for-science-program | Full (draft v3 stable) |
+| OpenAI Researcher Access | help.openai.com (FAQ — 403 via WebFetch; via WebSearch) + smapply portal + grantedai mirror | Full (draft v3 stable) |
+| Google Cloud Research Credits | edu.google.com/programs/credits/research/ (acessível direto) | Full (draft v3, 220 words under 250 limit) |
+| Google Cloud Start | cloud.google.com/startup/* (truncado via WebFetch; via WebSearch) | Short — blocker de incorporação. v1 esqueletal |
+| FGV Ventures batch 20 | prova-ia-v2/docs/contatos/fgv_ventures.md (overlay); status only neste repo | Status update only |
+
+## Subagentes usados
+
+- **2026-05-24:** Explore agent vasculhou `prova-ia-v2/` para custos de API. Resultado: per-pipeline costs por provider, baseline 28 runs em produção. Achados em `programs/anthropic-ai-for-science/loop-log.md` §A10 e `programs/google-cloud-research-credits/criteria.md`.
