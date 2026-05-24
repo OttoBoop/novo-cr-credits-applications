@@ -85,7 +85,49 @@ Status: draft v3 stable. Loop paused pending your review.
 
 ## OpenAI Researcher Access
 
-(populated after Phase 1)
+Status: draft v3 stable after autonomous loop. Loop paused pending your review.
+
+### 🔴 Critical
+
+- [ ] **Log into the smapply portal and copy the form fields to me.**
+  - URL: https://openai.smapply.org/prog/openai_researcher_access_program/
+  - Why I can't: portal exige login (Google or email).
+  - Risk if skipped: same as Anthropic — draft é estruturado contra campos típicos.
+  - Where: `programs/openai-researcher-access/draft.md`
+
+- [ ] **Valdemar Pinho Neto agrees to be PRINCIPAL INVESTIGATOR (not just signatory).**
+  - Source: OpenAI requirement "active affiliation to an academic institution" — Otavio as alumni does not satisfy this alone.
+  - Why this is different from Anthropic: Anthropic accepts team with alumni member + faculty member. OpenAI's barrier seems stricter — Valdemar's role here is principal applicant, not co-applicant.
+  - Action: explicit ask to Valdemar.
+  - Where: `programs/openai-researcher-access/draft.md` §Principal investigator and team.
+
+### 🟡 Verify (fact-checks)
+
+- [ ] **OpenAI's Sharing & Publication Policy** — read before submission.
+  - Source: OpenAI Researcher Access FAQ requires applicants to "review our sharing & publication policy" before applying.
+  - Relevant to: how we attribute / publish results from credit-funded experiments, especially involving FGV data.
+  - Action: open and skim the policy; flag any blockers.
+
+- [ ] **OpenAI Data Usage / Training Rights on API inputs/outputs.**
+  - Source: not disclosed in public FAQ; not stated in Granted AI mirror.
+  - Status: open question — same risk as Anthropic but unclear if symmetric.
+  - Action: read OpenAI's general API data policy + the program-specific terms inside the portal.
+
+- [ ] **"Brazilian researchers... operate at a structural cost disadvantage compared to North American or European labs"** — bold claim in draft §Limited financial and institutional resources.
+  - My intent: hits the priority signal "limited financial/institutional resources".
+  - Risk: could sound like complaint. Verify wording fits your voice.
+  - Where: `draft.md` §Limited financial and institutional resources.
+
+### 🔵 Decide
+
+- [ ] **Submission window.**
+  - Next quarterly review: **June 2026** (first week).
+  - Alternative: September 2026 (3 months later — adds CNPq credential after July 31 submission).
+  - My recommendation: **June** — Valdemar conversation should be quick and the $1K is more about credentialing than financing; better to test the channel now.
+
+- [ ] **Parallel narrative with Anthropic.**
+  - Current framing in draft: "Not redundant — Anthropic credits target Claude-specific optimizations, OpenAI credits target GPT-specific evaluation."
+  - My recommendation: keep this disclosure; some grant programs penalize undisclosed parallel applications.
 
 ---
 
