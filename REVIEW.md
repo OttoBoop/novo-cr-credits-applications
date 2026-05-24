@@ -185,7 +185,24 @@ Status: draft v3 stable (220-word proposal under the 250 limit). Loop paused. Op
 
 ## Google Cloud Start
 
-(populated after Phase 3)
+Status: **blocker fundamental** — programa requer empresa incorporada. Otavio não tem. Draft v1 esqueletal documenta o cenário hipotético; não submetido.
+
+### 🔵 Decide (this is the only category that applies — the program itself is blocked until decision)
+
+- [ ] **Decidir se incorporar empresa pro Novo CR.**
+  - Source: Google Cloud Start tier requires "less than 5 years from incorporation" + "legitimate business" verification via website.
+  - Coupling: same decision unlocks **OpenAI for Startups** ($2.5K-$5K), **Google Cloud Scale** ($200K, needs VC too), and potentially **AWS Activate** / **Microsoft Founders Hub** later.
+  - Recommendation: **postpone until FGV Ventures responds.** If accepted to batch 20, incorporation becomes natural (FGV Ventures uses Gust ecosystem). If rejected, evaluate standalone.
+  - Where: blocks `programs/google-cloud-start/draft.md`.
+
+- [ ] **If incorporating: MEI vs Ltda.**
+  - MEI: ~R$0/year registration, ~R$70/month, but has revenue/activity restrictions that may not fit EdTech.
+  - Ltda: ~R$2K-5K initial + ~R$500-1500/month accounting; more flexible.
+  - Action: consult an accountant.
+
+### 🟡 Verify (only relevant if incorporating)
+
+- [ ] **The "no educational institutions" restriction.** Once Otavio incorporates as a private EdTech company (not FGV-owned), this restriction doesn't apply. But framing has to be careful — application should describe the company, not the academic affiliation.
 
 ---
 
