@@ -46,8 +46,8 @@ Estes ficam onde estão; aplicações usam por referência ou anexo.
 | Anthropic AI for Science | support.claude.com + anthropic.com/ai-for-science-program-rules + anthropic.com/news/ai-for-science-program | Full (draft v3 stable) |
 | OpenAI Researcher Access | help.openai.com (FAQ — 403 via WebFetch; via WebSearch) + smapply portal + grantedai mirror | Full (draft v3 stable) |
 | Google Cloud Research Credits | edu.google.com/programs/credits/research/ (acessível direto) | Full (draft v3, 220 words under 250 limit) |
-| Google Cloud Start | cloud.google.com/startup/* (truncado via WebFetch; via WebSearch) | Short — blocker de incorporação. v1 esqueletal |
-| FGV Ventures batch 20 | prova-ia-v2/docs/contatos/fgv_ventures.md (overlay); status only neste repo | Status update only |
+| Google Cloud Start | cloud.google.com/startup/* (truncado via WebFetch; via WebSearch) | Full v3 (content); blocker operacional permanece (incorporação) |
+| FGV Ventures batch 20 | prova-ia-v2/docs/contatos/fgv_ventures.md + research_log_email_fgv.md | Full v6 (Otavio escreveu pessoalmente); email enviado 2026-05-15 |
 
 ## Subagentes usados
 

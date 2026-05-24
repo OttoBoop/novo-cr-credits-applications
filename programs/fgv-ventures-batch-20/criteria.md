@@ -1,72 +1,61 @@
 # FGV Ventures batch 20 — Critérios do programa
 
-Fonte: https://eaesp.fgv.br/.../fgv-ventures + WebFetch durante sessão de email FGV Ventures.
-Última verificação: 2026-05-15 (durante sessão do email).
+Última verificação: 2026-05-24. Material canônico do programa em `prova-ia-v2/docs/contatos/fgv_ventures.md`.
 
-## Status
+## Fontes
 
-**Em andamento.** O trabalho de aplicação está em `prova-ia-v2/docs/contatos/fgv_ventures.md` (dossiê) e o email canônico v6 escrito pelo Otavio está em `prova-ia-v2/docs/contatos/` (no histórico de pesquisa).
+- Página oficial: https://eaesp.fgv.br/centros/centro-empreendedorismo-e-negocios-fgv-eaesp/projetos/fgv-ventures
+- Inscrição (batch 20): http://gust.com/programs/fgv-ventures-batch-20
+- Dossiê estratégico: [`prova-ia-v2/docs/contatos/fgv_ventures.md`](../../../prova-ia-v2/docs/contatos/fgv_ventures.md)
+- Email v6 (canônico, escrito pelo Otavio): incluído em `draft.md` deste programa + sessão de pesquisa registrada em `prova-ia-v2/docs/contatos/research_log_email_fgv.md`
 
-Este arquivo só lista os critérios. O draft, voz e adaptação ficam no repo `prova-ia-v2/`.
+## Resumo
 
-## Resumo do programa
+Aceleradora da **FGV EAESP** (São Paulo). Programa de 4 meses, sem taxas, sem equity. Foco em startups early-stage com MVP validado, com fit em tese de impacto social/ambiental positivo.
 
-Aceleradora da FGV EAESP (São Paulo). Coordenadoras: **Isabel Pinheiro** e **Luciana Cualheta**.
+## Critérios verbatim
 
-## Critérios em verbatim
-
+- **Sem taxas, sem equity**
 - **Duração:** 4 meses
-- **Custo:** sem taxas, sem equity
-- **Critérios principais:**
-  - MVP validado (em produção, com tração demonstrável)
-  - Sem aceleração prévia preferida
-  - Equipes diversas (encoraja sub-representados: mulheres, negros, LGBTQIA+)
-- **Rejeita explicitamente:**
-  - Addiction
-  - Consumerism
-  - Job precarity
-- **Track record da aceleradora:** 101 startups · $150M captados · 4 exits
-- **Batch 20:** via Gust, first-come first-served
+- **Formato:** workshops temáticos + reuniões quinzenais individuais + mentorias com profissionais
+- **Foco:** early stage com **MVP validado**, geração de receita ou potencial
+- **Preferência:** startups **sem participação prévia** em outros programas de aceleração
+- **Equipes:** diversas (encoraja sub-representados: mulheres, negros, LGBTQIA+); valores éticos
+- **Critério explícito:** fit com tese de impacto social/ambiental positivo
+- **Histórico:** 101 startups · +R$150M captação · +R$600M valuation · 4 exits
 
-## Encaixe do Novo CR
+## Áreas-alvo
 
-**MVP validado:** sim (em produção, 26 matérias, 100+ atividades).
+AgTech, AI Ops, AutoTech, CleanTech, Dronetech, **EdTech**, Entretenimento, FinTech, FoodTech, GameTech, HealthTech, HR Tech, InsurTech, LegalTech, MarTech, PetTech, PropTech, RetailTech, **SocialTech**, Travel Tech.
 
-**Sem aceleração prévia:** sim.
+**Encaixe duplo:** EdTech (correção pedagógica, pipeline IA) e SocialTech (educação baseada em dados longitudinais com aplicação em proteção infantil e medidas socioeducativas).
 
-**Diversidade:** não é o foco do Novo CR, mas Otavio aplica como pessoa física.
+## Rejeições explícitas
 
-**Rejeições:** Novo CR não cai em addiction/consumerism/job precarity — é ferramenta pedagógica.
+- Addiction
+- Consumerism
+- Job precarity
 
-**Pista interna:** Valdemar Pinho Neto **recomendou pessoalmente o contato com Isabel e Luciana**. Email já enviado (rascunho final em `prova-ia-v2/docs/contatos/`).
+Novo CR não cai em nenhuma dessas categorias.
 
-## Onde está o trabalho real
+## Contatos
 
-- Dossiê do programa + estratégia: [`/home/otavio/Documents/vscode/prova-ia-v2/docs/contatos/fgv_ventures.md`](../../../../prova-ia-v2/docs/contatos/fgv_ventures.md)
-- Email v6 (canônico, escrito pelo Otavio): em `prova-ia-v2/docs/contatos/` (versão final)
-- Inventário de outreach geral: [`/home/otavio/Documents/vscode/prova-ia-v2/docs/contatos/outreach.md`](../../../../prova-ia-v2/docs/contatos/outreach.md)
+| Nome | Cargo | Email | Papel |
+|---|---|---|---|
+| Isabel Cruz Pinheiro | Coordenadora de aceleração | isabel.pinheiro@fgv.br | Para |
+| Luciana Padovez Cualheta | Diretora da FGV Ventures | luciana.cualheta@fgv.br | CC |
 
-**Não duplicar conteúdo aqui.** Quando precisar iterar, abrir os arquivos originais em `prova-ia-v2/docs/contatos/`.
+Estratégia: Isabel triagem operacional; Luciana acompanha o canal.
 
-## Pendências
+## Diferenças vs outros programas neste repo
 
-1. Aguardar retorno de Isabel/Luciana ao email enviado.
-2. Decidir efetivamente sobre inscrição no batch 20 baseado no retorno.
+- **Não é grant de créditos de API.** É aceleração de produto: workshops, mentorias, network, 4 meses.
+- **Não exige incorporação** explicitamente (a página fala em "startup" mas a verificação parece ser de produto, não jurídica).
+- **Não exige afiliação acadêmica.** Otavio aplica como alumni / founder direto. Diferente dos 3 programas de pesquisa onde Valdemar é necessário.
+- **Equity-free e taxa-free.** Risco financeiro nulo. Compromisso é tempo.
 
 ## Status (2026-05-24)
 
-**Email enviado (v6, escrito pelo Otavio em pessoa, 2026-05-15).** Aguardando resposta de Isabel e Luciana.
+**Email enviado em 2026-05-15.** Aguardando resposta.
 
-Conteúdo do email v6 e dossiê estratégico vivem em `prova-ia-v2/docs/contatos/fgv_ventures.md` e o email final em prova-ia-v2/. Não duplicado aqui.
-
-### Por que o material não vive neste repo
-
-- O email já foi escrito e enviado — não há draft pra iterar aqui
-- O dossiê estratégico foi construído antes deste repo existir
-- Duplicar quebraria o princípio de SOURCES (single source of truth)
-
-### Quando a decisão volta a este repo
-
-- **Se Isabel/Luciana responderem com interesse:** abrir nova subseção em REVIEW.md sobre próximos passos (entrevista, dossiê adicional, etc.)
-- **Se a aceitação no batch 20 acontecer:** isto destrava a decisão de incorporação, que abre os caminhos Google Cloud Start, OpenAI for Startups, etc. Atualizar `programs/google-cloud-start/` e similares.
-- **Se rejeitarem:** registrar o feedback em REVIEW.md como input pra futuras aplicações a aceleradoras (Microsoft Founders Hub, AWS Activate, NVIDIA Inception, etc.).
+O draft do email (v6 final, escrito pelo Otavio) está em [`draft.md`](draft.md). O log da preparação (v1 da Ariadne → v6 final do Otavio) está em [`loop-log.md`](loop-log.md), referenciando `prova-ia-v2/docs/contatos/research_log_email_fgv.md` pra detalhe verbatim.

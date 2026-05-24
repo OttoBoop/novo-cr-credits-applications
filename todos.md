@@ -4,13 +4,13 @@
 
 ## Status atual (2026-05-24)
 
-### Drafts completos
+### Drafts (todos no mesmo nível de maturidade)
 
 - ✅ **Anthropic AI for Science** — draft v3 estável ($20K target). Aguarda revisão.
 - ✅ **OpenAI Researcher Access** — draft v3 estável ($1K target). Aguarda revisão.
 - ✅ **Google Cloud Research Credits** — draft v3 com proposal de 220 palavras. Aguarda revisão + billing account institucional.
-- ⏸️ **Google Cloud Start** — v1 esqueletal. Bloqueado por decisão de incorporação.
-- ⏸️ **FGV Ventures batch 20** — email v6 enviado, aguardando resposta de Isabel/Luciana.
+- ✅ **Google Cloud Start** — draft v3 (ready in content). Bloqueado operacionalmente por decisão de incorporação.
+- ✅ **FGV Ventures batch 20** — email v6 (escrito pelo Otavio), enviado 2026-05-15. Aguardando resposta de Isabel/Luciana.
 
 ### Próximas ações (não bloqueantes)
 

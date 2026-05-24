@@ -31,13 +31,15 @@ Detalhe em [shared/framing-principle.md](shared/framing-principle.md).
 │   ├── voice-anchors.md       # Quotes verbatim do Otavio (não inventar voz)
 │   └── project-description.md # Peça canônica de 1 página
 │
-└── programs/                  # Uma pasta por programa
+└── programs/                  # Uma pasta por programa — todos com mesma estrutura
     ├── anthropic-ai-for-science/      # draft v3 (priority — $20K)
-    ├── openai-researcher-access/      # draft v3 ($1K)
-    ├── google-cloud-research-credits/ # draft v3 (250-word proposal)
-    ├── google-cloud-start/            # v1 esqueletal (bloqueado por incorporação)
-    └── fgv-ventures-batch-20/         # apenas status (material em prova-ia-v2/)
+    ├── openai-researcher-access/      # draft v3 ($1K, Valdemar PI)
+    ├── google-cloud-research-credits/ # draft v3 (220-word proposal)
+    ├── google-cloud-start/            # draft v3 (ready in content; blocker: incorporação)
+    └── fgv-ventures-batch-20/         # draft v6 (email do Otavio, enviado 2026-05-15)
 ```
+
+Cada subpasta tem: `criteria.md` (verbatim do programa), `requirements-and-fit.md` (análise pareada), `draft.md` (versão atual), `loop-log.md` (cronológico).
 
 ## Como usar (loop de aplicação)
 

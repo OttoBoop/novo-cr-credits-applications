@@ -208,17 +208,24 @@ Status: **blocker fundamental** — programa requer empresa incorporada. Otavio 
 
 ## FGV Ventures batch 20
 
-Status: **email v6 enviado em 2026-05-15.** Aguardando resposta de Isabel Pinheiro e Luciana Cualheta.
+Status: **email v6 enviado em 2026-05-15.** Aguardando resposta de Isabel Pinheiro e Luciana Cualheta. Set completo de artifacts no repo (criteria, requirements-and-fit, draft com v6 verbatim, loop-log com cronologia).
 
-### 🔵 Decide (after their response)
+### 🔴 Critical (time-sensitive)
 
-- [ ] **If they respond with interest:** próximos passos (entrevista, dossiê adicional) — abrir nova subseção aqui.
-- [ ] **If they accept into batch 20:** isto destrava decisão de incorporação. Re-abrir `programs/google-cloud-start/` e `openai-startups/` (que ainda não existe — criar se for ativar startup track).
-- [ ] **If they reject:** registrar feedback aqui; usar como input pra Microsoft Founders Hub / AWS Activate / NVIDIA Inception.
+- [ ] **9 dias após envio sem resposta documentada (assumindo envio 2026-05-15).** Decidir follow-up curto no mesmo thread.
+  - My recommendation: **uma mensagem curta** ("queria confirmar que recebem") no thread original, sem novo subject, sem novo conteúdo. Padrão de follow-up em programa estruturado.
+  - Where: pós-envio em `programs/fgv-ventures-batch-20/loop-log.md`.
+
+### 🔵 Decide
+
+- [ ] **If they respond with interest:** próximos passos (entrevista, dossiê adicional) — atualizar `loop-log.md` + abrir nova subseção aqui.
+- [ ] **If they accept into batch 20:** isto destrava decisão de incorporação. Re-abrir `programs/google-cloud-start/` e potencialmente criar `programs/openai-startups/`, `programs/microsoft-founders-hub/`, `programs/aws-activate/`.
+- [ ] **If they reject:** registrar feedback no `loop-log.md`; usar como input pra outros aceleradores.
 
 ### 🟡 Verify (passivo)
 
-- [ ] **Material canônico:** `prova-ia-v2/docs/contatos/fgv_ventures.md` (dossiê estratégico) + email v6 final em `prova-ia-v2/docs/contatos/`. Não duplicar aqui.
+- [ ] **Subject do email v6** — confirmar com Otavio se foi com subject específico ou padrão.
+  - Where: `programs/fgv-ventures-batch-20/draft.md` (Subject: a confirmar com Otavio).
 
 ---
 
