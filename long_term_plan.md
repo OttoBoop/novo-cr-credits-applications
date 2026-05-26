@@ -8,7 +8,7 @@ O Novo CR é uma plataforma de educação baseada em dados rodando em produção
 
 ### G1. Créditos Anthropic via AI for Science
 
-- **Meta:** até $20.000 em créditos da API Claude por 6 meses.
+- **Meta:** até **$50.000** em créditos da API Claude por 6 meses (corrigido a partir dos campos verbatim do form em 2026-05-24; o valor de $20K mencionado no help center era teto antigo).
 - **Programa:** Anthropic AI for Science.
 - **Critério-chave:** "researchers attached to research institutions working on high-impact scientific projects".
 - **Estratégia de encaixe:** posicionar o Novo CR como infraestrutura de pesquisa em educação baseada em dados longitudinais, com ângulo de detecção de risco escolar e medição de medidas socioeducativas. Afiliar à FGV via Valdemar Pinho Neto (orientador TCC, EPGE) e Rubens Cysne (diretor EPGE).
@@ -63,10 +63,10 @@ O Novo CR é uma plataforma de educação baseada em dados rodando em produção
 
 | Programa | Crédito | Elegibilidade-chave | Status Otavio | Prioridade |
 |---|---|---|---|---|
-| Anthropic AI for Science | até $20K / 6mo | Pesquisador + instituição | Alumni FGV + apoio faculty | **Alta** (via Valdemar/Cysne) |
+| Anthropic AI for Science | até **$50K** / 6mo | Pesquisador + instituição | Alumni FGV + apoio faculty | **Alta** (via Valdemar/Cysne) |
 | OpenAI Researcher Access | até $1K / 12mo | Afiliação acadêmica + recursos limitados | Mesmo caminho | Média (valor baixo) |
 | OpenAI for Startups | $2.5K–$5K | Startup incorporada, <5 anos | Não incorporado | Baixa (travado) |
-| Google Cloud Start | $2K + $200 training | <5 anos, pré-funded, MVP | Possível com incorporação leve | Média (valor baixo) |
+| Google Cloud Start | $2K + $200 training | <5 anos, pré-funded, MVP | **PARQUEADO** — Otavio não pode incorporar agora | Em pausa |
 | Google Cloud Scale | $200K | Seed–Series A VC institucional | Sem VC | Baixa (travado) |
 | Google Cloud AI Tier | até $350K / 2yr | AI-first com Gemini + VC | Sem VC + restrição edu/gov | Baixa (travado + restrição) |
 | Google Cloud Research Credits | não publicado | Faculty/PhD/postdoc | Não direto | Média (via Valdemar) |

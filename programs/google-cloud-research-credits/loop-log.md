@@ -100,3 +100,38 @@ Arquivos: `criteria.md` (expandido), `requirements-and-fit.md` (novo), `draft.md
 ---
 
 (Loop Google Cloud Research Credits fechado em v3. Próxima ação: Otavio decide se Valdemar topa + FGV TI disponibiliza Billing Account.)
+
+---
+
+## Sessão 2 — ajustes finos (v3 → v4) — 2026-05-24
+
+### Contexto
+
+Otavio explicitamente pediu:
+1. **Field of Research = Computer Science** (Otavio confirmou; eu tinha como hipótese)
+2. **Destacar "we already use Google API in production"** como sinal de comprometimento e experiência operacional
+3. **Brazilian researcher cost angle** mais explícito
+4. **Project start date = December 2025** (Cysne instigou — alinhar com Anthropic e OpenAI)
+
+### A11 — Mudanças aplicadas em v4
+
+- §Field of research: confirmado Computer Science
+- §Project start date: December 2025 (alinhamento)
+- §Prior Google Cloud use: reescrito pra destacar Gemini 3 Flash + 2.5 Flash em produção, com cost data verbatim (full pipeline $0.19, extrair_gabarito $0.0012, 28-run total $0.49)
+- §Proposal de 250 palavras: adicionada referência "ongoing since December 2025" + "we already use Gemini in production" + "Brazilian researchers face structural API cost disadvantages"
+- Word count: 245 (sob 250)
+
+### A12 — Auto-crítica de v4
+
+Itens pra REVIEW.md:
+- Billing Account ID institucional FGV (operacional, semanas via TI)
+- Pricing calculator URL (Valdemar/Otavio precisa gerar via https://cloud.google.com/products/calculator)
+- Email institucional do Valdemar
+
+### A13 — Commit
+
+Files: `draft.md` (v4), `loop-log.md` (este).
+
+---
+
+(v4 estável com correções dos Otavio. Loop pausado.)

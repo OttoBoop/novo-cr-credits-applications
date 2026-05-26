@@ -90,3 +90,55 @@ Files: `criteria.md` (expandido), `requirements-and-fit.md` (novo), `draft.md` (
 ---
 
 (Loop OpenAI Researcher Access fechado. Próximas ações dependem da revisão do Otavio + dos campos reais do form smapply.org.)
+
+---
+
+## Sessão 2 — reescrita pra campos reais do form (v3 → v4) — 2026-05-24
+
+### Contexto
+
+Otavio compartilhou os campos verbatim do form OpenAI. Mudanças vs v3:
+1. **Project Description é dividido em 3 sub-blocos:** Research Question, Research Design, Expected Outcomes — não é um texto contínuo.
+2. **Research Areas é multi-select** de 8 áreas — confirmar quais selecionar (Otavio sinalizou Societal Impact + Interdisciplinary + Interpretability).
+3. **Até 6 collaborators** podem ser listados.
+4. **Past research** é campo separado.
+5. **Country, Educational Stage, Gender Identity** entre os campos de contato.
+6. **Brazilian researcher cost angle** — Otavio pediu pra reforçar.
+
+### A11 — Auto-crítica de v3
+
+v3 era texto contínuo sob §Project summary + §Alignment + §Use of OpenAI API + §Limited resources. Precisa virar blocos mapeados aos campos.
+
+### A12 — Escrever v4
+
+Mudanças:
+- §Contact em tabela mapeada (Valdemar como first/last name; Brazil; Faculty; institutional FGV email)
+- §Research Areas com 3 selecionadas explicitamente, ordenadas (Societal impact > Interdisciplinary > Interpretability)
+- §Project Description partido em 3 sub-seções (Research Question / Research Design / Expected Outcomes), cada uma com 1-2 parágrafos
+- §Timeline em 12 meses dividido em 3 fases
+- §Budget com cost data refinado do subagent (Nano $0.017, GPT-5.4 Mini $0.079, GPT-4.1 $0.54, GPT-5 $1.05)
+- §Org-ID placeholder
+- §Additional collaborators tabela com Otavio + Cysne + Moacyr + 3 slots opcionais
+- §Past research seção placeholder pra Valdemar preencher
+- §Any other comments com parallel applications declaradas e ongoing-since-December framing
+
+### A13 — Auto-crítica de v4
+
+Itens pra REVIEW.md:
+- Email institucional do Valdemar (placeholder)
+- Org-ID OpenAI (pendência operacional pré-submissão)
+- Past research — depende do Valdemar e/ou Otavio escolher
+- Slots de collaborators opcionais — perguntar a Otavio se quer incluir Mario Andrade ou Layla Mendes
+- Gender Identity — preferência do Valdemar (deixar dele preencher)
+
+### A14 — Decisão: parar em v4
+
+Conteúdo está sólido pra revisão. Próximo passo é Valdemar topar + Otavio preencher os campos operacionais.
+
+### A15 — Commit
+
+Files: `draft.md` (v4 mapeada), `loop-log.md` (este). Pendências novas no REVIEW.md.
+
+---
+
+(v4 mapeada aos campos reais. Loop pausado.)

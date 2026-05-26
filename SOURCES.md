@@ -43,12 +43,13 @@ Estes ficam onde estão; aplicações usam por referência ou anexo.
 
 | Programa | Fontes primárias | Nível de loop fechado |
 |---|---|---|
-| Anthropic AI for Science | support.claude.com + anthropic.com/ai-for-science-program-rules + anthropic.com/news/ai-for-science-program | Full (draft v3 stable) |
-| OpenAI Researcher Access | help.openai.com (FAQ — 403 via WebFetch; via WebSearch) + smapply portal + grantedai mirror | Full (draft v3 stable) |
-| Google Cloud Research Credits | edu.google.com/programs/credits/research/ (acessível direto) | Full (draft v3, 220 words under 250 limit) |
-| Google Cloud Start | cloud.google.com/startup/* (truncado via WebFetch; via WebSearch) | Full v3 (content); blocker operacional permanece (incorporação) |
+| Anthropic AI for Science | support.claude.com + anthropic.com/ai-for-science-program-rules + anthropic.com/news/ai-for-science-program + **form fields verbatim (Otavio 2026-05-24)** | **v4** mapeada aos campos reais; teto $50K |
+| OpenAI Researcher Access | help.openai.com FAQ (via WebSearch) + grantedai mirror + **form fields verbatim (Otavio 2026-05-24)** | **v4** mapeada; Valdemar como main author |
+| Google Cloud Research Credits | edu.google.com/programs/credits/research/ + Otavio confirmou CS field | **v4** com Computer Science + "we already use Google" + Brazilian cost angle |
+| Google Cloud Start | cloud.google.com/startup/* (truncado via WebFetch; via WebSearch) | **PARQUEADO** — Otavio não pode incorporar agora |
 | FGV Ventures batch 20 | prova-ia-v2/docs/contatos/fgv_ventures.md + research_log_email_fgv.md | Full v6 (Otavio escreveu pessoalmente); email enviado 2026-05-15 |
 
 ## Subagentes usados
 
-- **2026-05-24:** Explore agent vasculhou `prova-ia-v2/` para custos de API. Resultado: per-pipeline costs por provider, baseline 28 runs em produção. Achados em `programs/anthropic-ai-for-science/loop-log.md` §A10 e `programs/google-cloud-research-credits/criteria.md`.
+- **2026-05-24 (1ª passada):** Explore agent vasculhou `prova-ia-v2/` para custos de API. Resultado: per-pipeline costs por provider, baseline 28 runs em produção. Achados em `programs/anthropic-ai-for-science/loop-log.md` §A10 e `programs/google-cloud-research-credits/criteria.md`.
+- **2026-05-24 (2ª passada):** Explore agent buscou estimativas mais recentes (Otavio mencionou loop ongoing). Achados novos: Doc 14 (auditoria mestre, 2026-05-23) com refinamento de 3 camadas (estimativa / medição local / persistência durável); migration Supabase `token_usage` aplicada com `record_count=20`, 187 runs precificados; model_catalog 2026.05 (last_updated 2026-05-17) com pricing atualizado por modelo; per-pipeline novos: GPT-5.4 Mini ~$0.079, Nano ~$0.017, GPT-4.1 ~$0.54. Incorporados em drafts v4.

@@ -2,7 +2,7 @@
 
 > Single consolidated file for all open items across every program application.
 > Logs (`programs/<X>/loop-log.md`) carry the full chronology; this file carries only what needs *you* to act, decide, or verify.
-> Last updated: 2026-05-24 (session 2 — autonomous draft loop).
+> Last updated: 2026-05-24 (session 3 — drafts v4 mapped to real form fields).
 
 ## How to use this
 
@@ -11,224 +11,188 @@
   - 🟡 **Verify** — fact-checks needed; doesn't block drafting but blocks submission.
   - 🔵 **Decide** — strategic / preference choices.
 - Each item is checkboxed (`- [ ]`). Mark resolved as you go.
-- Each item lists: my claim or question + my source/inference + my best guess + what I need from you + where the item shows up in the repo.
+
+---
+
+## 🎯 Cross-cutting (one action unlocks 3 programs)
+
+### 🔴 Critical
+
+- [ ] **Send the support email to Valdemar Pinho Neto.**
+  - Draft ready at [`shared/valdemar-support-email.md`](shared/valdemar-support-email.md).
+  - Covers all 3 research programs (Anthropic, OpenAI, Google Research) in one email.
+  - Why unified: same project, same credentials, respects Valdemar's time.
+  - Action: review draft, edit if needed, send to Valdemar's @fgv.br email.
+
+- [ ] **If Valdemar agrees, authorize me to draft the support letter for Anthropic.**
+  - Anthropic accepts team applications but typically expects a brief institutional letter.
+  - Length: ~1 page in PT-BR (Valdemar reads); EN version if requested.
+  - Content: attests Otavio is alumni + research collaborator under Valdemar's supervision; the project is genuine research aligned with EPGE/FGV.
+
+### 🔵 Decide
+
+- [ ] **Submit unified email vs three separate emails to Valdemar.**
+  - My recommendation: unified (drafted that way).
+  - Alternative: 3 separate emails per program. Costs more of Valdemar's time but allows him to engage with each on its own merits.
 
 ---
 
 ## Anthropic AI for Science
 
-Status: draft v3 stable. Loop paused pending your review.
+Status: **draft v4 mapped to real form fields**. Up to **$50,000** in API credits (corrected from my earlier $20K). 30-min video call if approved.
 
 ### 🔴 Critical
 
-- [ ] **Open the official Google Form and copy the fields to me.**
-  - URL: https://docs.google.com/forms/d/e/1FAIpQLSfwDGfVg2lHJ0cc0oF_ilEnjvr_r4_paYi7VLlr5cLNXASdvA/viewform
-  - Why I can't: WebFetch can't open authenticated Google Forms; I only saw the public preamble pages.
-  - Risk if skipped: draft.md is structured against my best guess of typical fields. Might need re-cutting if real fields differ (e.g., strict word limits per question).
-  - Where: `programs/anthropic-ai-for-science/draft.md`
+- [ ] **Create / locate Anthropic Organization ID.**
+  - URL: https://console.anthropic.com/settings/organization
+  - Format example given by Anthropic: `1bc14c5d-6442-4fa9-bgjj-c1ejei29aef01v`
+  - Action: log into Anthropic Console with the email you want associated with the project; copy the org ID into draft.md §Project information.
 
-- [ ] **Decide submission window.**
-  - Options: 1 jun (next first-Monday cycle) / 6 jul (after CNPq submission) / 3 ago.
-  - My recommendation: **6 jul** — adds CNPq credential to the narrative without losing too much momentum.
-  - Why this matters: timing affects the framing of "Companion academic submission" in §Additional context.
+- [ ] **Position/title at organization** — ambiguous in v4 because Otavio is alumni and Valdemar is Faculty.
+  - My current draft text: "Alumni and research collaborator; institutional supervision by Valdemar Pinho Neto (Coordinator of EPGE Undergraduate Program)"
+  - Alternative: list Valdemar as primary contact and have his Position field state "Coordinator of EPGE/FGV Undergraduate Program".
+  - Decide who is "primary contact" in the form: Otavio (operates the system) or Valdemar (faculty signatory)?
 
-- [ ] **Confirm Valdemar Pinho Neto as co-applicant + institutional signatory.**
-  - Source: `shared/team-and-credentials.md` + your own email v6 saying Valdemar recommended FGV Ventures.
-  - Action: verbal/email confirmation from Valdemar that he agrees to be listed in the form + commit to sign a support letter.
-  - Where: `programs/anthropic-ai-for-science/draft.md` §Team and institutional affiliation.
+- [ ] **GitHub of the project — make public for the application.**
+  - Currently the production system runs from a repo; need to confirm visibility and ensure it's appropriate for an external review.
 
-- [ ] **Authorize me to draft Valdemar's support letter.**
-  - Format I'd produce: ~1 page in PT, formal but conversational, attesting (a) Otavio is a thesis advisee + alumni, (b) Novo CR is a personal research project of merit, (c) Valdemar is the institutional anchor for grant applications.
-  - Recommendation: PT first since Valdemar reads it; translate to EN if Anthropic specifically requires English.
+### 🟡 Verify
 
-### 🟡 Verify (fact-checks)
+- [ ] **Otavio's LinkedIn URL** — currently `[LinkedIn — to be filled]` in §Key team members.
 
-- [ ] **"BSc Economics, 2025"** — is this the right title for your degree?
-  - My inference: EPGE = Escola de Pós-Graduação em Economia → undergrad = BSc in Economics.
-  - Where: `draft.md` §Team / Principal researcher.
-  - If wrong: tell me the correct degree name; I update.
+- [ ] **Brazilian cost angle wording** — appears in §Research Team, §Resource Requirements, §Research Proposal. Otavio asked to reinforce; I may have over-reinforced. Verify the wording reads as context, not lamentation.
 
-- [ ] **"Cysne encouraged the project's formal start in December 2025"** — bate com sua história?
-  - Source: your email v6 to FGV Ventures says "O diretor Rubens Cysne me incentivou a iniciar o projeto, dezembro passado."
-  - Where: `draft.md` §Team and `shared/team-and-credentials.md`.
-
-- [ ] **Mario Andrade "13 years in the role" at CTAE.**
-  - Source: `prova-ia-v2/docs/contatos/outreach.md` line 625 — "Coordenador Pedagógico CTAE FGV há 13 anos; também professor da rede estadual RJ desde 2007".
-  - Where: `draft.md` §Team.
-
-- [ ] **"~89% reduction in input tokens" via prompt caching at the CORRIGIR stage.**
-  - Source: subagent extracted this from prova-ia-v2/ codebase analysis ("Otimização planejada: Prompt caching pode reduzir 89% dos tokens entrada em CORRIGIR para 30 alunos no mesmo gabarito").
-  - Risk: confirm this 89% is from a stable analysis you trust, not a rough estimate that might change.
-  - Where: `draft.md` §Use of Claude API.
-
-- [ ] **Moacyr's EMAp data consent under Anthropic's "perpetual, irrevocable license to train".**
-  - Source: Anthropic AI for Science Rules §"Data Handling & Research Use" — accepting credits means Anthropic can use Inputs/Outputs from the API for training.
-  - Risk: data from prof. Moacyr's EMAp class flowing through the API while credits are used would fall under this license. Need Moacyr's explicit OK.
-  - Where: blocks compliance check pre-submission.
-
-- [ ] **SUBDEIS consent for personal research project.**
-  - Source: Anthropic Rules — "you must have obtained all consents from that employer or institution".
-  - My read: probably an informal notification to your boss suffices since the project is personal and pre-dates the SUBDEIS role. Verify with you / SUBDEIS HR.
-  - Where: blocks compliance check pre-submission.
+- [ ] **GPT-5.4 Mini at $0.079** number used in §Use of Claude API context — actually this stat is for GPT, not Claude. v4 only uses Claude-specific numbers ($0.28 Haiku, $0.55 Sonnet). Verify no cross-contamination of numbers.
 
 ### 🔵 Decide
 
-- [ ] **Allocation plan in §Estimated credit usage** — current split is 40% production / 30% cross-course refinement / 20% provider benchmark / 10% CNPq research.
-  - My recommendation: keep as is.
-  - Alternative: bump production to 50% if the FGV pilot looks more concrete in your view.
+- [ ] **Video call prep** — if approved, Anthropic schedules a 30-min video call before applying credits.
+  - Suggested prep: demo of the live system, walkthrough of the longitudinal report, Q&A. I can draft a video-call brief if you want.
 
-- [ ] **Tax implications of $20K USD API credits as a Brazilian resident.**
-  - Source: Anthropic Rules — "API Credits may have different tax implications than cash prizes. Selected Researchers are solely responsible for determining whether receipt of API Credits creates any tax obligations."
-  - Action only if selected — but worth a quick word with a contador to know what to expect.
+- [ ] **Where did you hear about this program?** — free-text. Current value: "Direct discovery via the Anthropic Help Center". Adjust if the source was different.
 
 ---
 
 ## OpenAI Researcher Access
 
-Status: draft v3 stable after autonomous loop. Loop paused pending your review.
+Status: **draft v4 mapped to real form fields**. Up to **$1,000** in API credits (12 months, non-renewable). Valdemar required as main author.
 
 ### 🔴 Critical
 
-- [ ] **Log into the smapply portal and copy the form fields to me.**
-  - URL: https://openai.smapply.org/prog/openai_researcher_access_program/
-  - Why I can't: portal exige login (Google or email).
-  - Risk if skipped: same as Anthropic — draft é estruturado contra campos típicos.
-  - Where: `programs/openai-researcher-access/draft.md`
+- [ ] **Confirm Valdemar agrees to be primary applicant (main author).** Same as cross-cutting item.
 
-- [ ] **Valdemar Pinho Neto agrees to be PRINCIPAL INVESTIGATOR (not just signatory).**
-  - Source: OpenAI requirement "active affiliation to an academic institution" — Otavio as alumni does not satisfy this alone.
-  - Why this is different from Anthropic: Anthropic accepts team with alumni member + faculty member. OpenAI's barrier seems stricter — Valdemar's role here is principal applicant, not co-applicant.
-  - Action: explicit ask to Valdemar.
-  - Where: `programs/openai-researcher-access/draft.md` §Principal investigator and team.
+- [ ] **Create / locate OpenAI Org-ID.**
+  - URL: https://platform.openai.com/account/organization
+  - Action: Valdemar (or Otavio under Valdemar's email) creates an OpenAI account for the research; copy the org-ID into draft.md.
 
-### 🟡 Verify (fact-checks)
+- [ ] **Valdemar's institutional FGV email.**
+  - Currently placeholder in draft.md §Contact.
 
-- [ ] **OpenAI's Sharing & Publication Policy** — read before submission.
-  - Source: OpenAI Researcher Access FAQ requires applicants to "review our sharing & publication policy" before applying.
-  - Relevant to: how we attribute / publish results from credit-funded experiments, especially involving FGV data.
-  - Action: open and skim the policy; flag any blockers.
+### 🟡 Verify
 
-- [ ] **OpenAI Data Usage / Training Rights on API inputs/outputs.**
-  - Source: not disclosed in public FAQ; not stated in Granted AI mirror.
-  - Status: open question — same risk as Anthropic but unclear if symmetric.
-  - Action: read OpenAI's general API data policy + the program-specific terms inside the portal.
+- [ ] **Research Areas selection** — currently 3 selected: Societal impact, Interdisciplinary research, Interpretability/transparency.
+  - Verify with Valdemar: does he agree these are the right framing? Alternative areas (Fairness & representation, Robustness) are possible.
 
-- [ ] **"Brazilian researchers... operate at a structural cost disadvantage compared to North American or European labs"** — bold claim in draft §Limited financial and institutional resources.
-  - My intent: hits the priority signal "limited financial/institutional resources".
-  - Risk: could sound like complaint. Verify wording fits your voice.
-  - Where: `draft.md` §Limited financial and institutional resources.
+- [ ] **Past research field** — placeholder in draft.md. Suggested entries: Otavio's TCC, Valdemar's published economics papers.
+  - Action: Valdemar / Otavio select 1-3 relevant entries.
+
+- [ ] **Gender Identity field** — Valdemar's preference. Leave blank if he prefers.
 
 ### 🔵 Decide
 
+- [ ] **Additional collaborators (up to 6 investigators).**
+  - Current list: Otavio (co-investigator), Cysne, Moacyr, + 3 optional slots.
+  - Decide: include Mario Andrade? Layla Mendes? Diogo Robaina?
+  - Constraint: each collaborator listed must have an OpenAI API account.
+
 - [ ] **Submission window.**
   - Next quarterly review: **June 2026** (first week).
-  - Alternative: September 2026 (3 months later — adds CNPq credential after July 31 submission).
-  - My recommendation: **June** — Valdemar conversation should be quick and the $1K is more about credentialing than financing; better to test the channel now.
-
-- [ ] **Parallel narrative with Anthropic.**
-  - Current framing in draft: "Not redundant — Anthropic credits target Claude-specific optimizations, OpenAI credits target GPT-specific evaluation."
-  - My recommendation: keep this disclosure; some grant programs penalize undisclosed parallel applications.
+  - Alternative: September 2026 (after CNPq July 31 submission, adds peer-review credential).
+  - My recommendation: June (don't wait — Valdemar conversation should move quickly).
 
 ---
 
 ## Google Cloud Research Credits
 
-Status: draft v3 stable (220-word proposal under the 250 limit). Loop paused. Operational pendencies are heavy (billing account + pricing calculator).
+Status: **draft v4 mapped to real form fields, Field of Research = Computer Science**. Heavy operational pendencies remain.
 
 ### 🔴 Critical
 
-- [ ] **Valdemar Pinho Neto agrees to be applicant of record (Faculty).**
-  - Source: program eligibility — "limited to faculty, PhD students and postdoctoral researchers"; alumni not on the list of accepted job titles.
-  - Why this is different: at OpenAI, Valdemar as PI is recommended; at GCP, it's the only path. The credits go INTO FGV's billing account on Valdemar's representation.
-  - Action: explicit ask + Faculty representation Valdemar must sign at submission.
+- [ ] **Confirm Valdemar as Faculty applicant of record.** Same as cross-cutting.
 
 - [ ] **Obtain Google Cloud Billing Account ID — institutional FGV (max 25 characters).**
-  - Source: form requires this field; faculty representation states credits used "on behalf of the educational entity".
-  - Action: coordinate with EPGE financial/IT to either reuse an existing FGV institutional GCP billing account or open one.
-  - Risk: this can take weeks to set up via institutional channels. May block submission if not ready.
-  - Where used: form identification fields.
+  - Setup link: https://console.cloud.google.com/billing
+  - Action: coordinate with EPGE financial/IT department.
+  - Risk: this can take weeks via FGV institutional channels.
 
-- [ ] **Generate expected cost estimate via Google's pricing calculator + share URL.**
-  - Source: form requires this URL.
-  - Tools needed: Google's pricing calculator (https://cloud.google.com/products/calculator) configured for projected Gemini API usage.
-  - My current rough estimate: ~5,000–10,000 exam-equivalents at ~$0.19 Gemini Flash full pipeline.
-  - Action: someone with GCP access creates a saved estimate; URL goes into the form.
+- [ ] **Generate Google Cloud Pricing Calculator URL.**
+  - Calculator: https://cloud.google.com/products/calculator
+  - Action: configure for projected Gemini API usage (~5,000–10,000 exam-equivalents × ~$0.19 = ~$1K–$2K), save, share URL.
 
-### 🟡 Verify (fact-checks)
+- [ ] **Valdemar's institutional email** — placeholder.
 
-- [ ] **Email field — Valdemar's institutional FGV email.**
-  - My placeholder: "(Valdemar's @fgv.br institutional address)".
-  - Form prefers "institution account".
+### 🟡 Verify
 
-- [ ] **Project start date — when?**
-  - Implication: activation must happen within 60 days of start date.
-  - Recommendation: align with grant decision (start ~30 days after expected notification).
+- [ ] **"We already use Gemini in production"** wording — v4 brings this prominently. Verify it reads as positive signal (we know the tooling) rather than negative (you already use it, why need more credits).
+  - My intent: positive signal of operational maturity + cost data credibility.
 
-- [ ] **Department name in form — "EPGE — Graduate School of Economics" — is this FGV's accepted English name?**
-  - My inference: from public FGV materials.
+- [ ] **Project start date = December 2025** in draft v4. Bate com a história (Cysne instigou).
 
 ### 🔵 Decide
 
-- [ ] **Field of Research: Computer Science vs Social Sciences?**
-  - My recommendation: **Computer Science** (Google emphasizes CS for AI research; consistent with how Anthropic/OpenAI applications frame the work).
-  - Alternative: Social Sciences (more aligned with the longitudinal education aspect; less aligned with Google's typical research credit awards which lean technical).
-
 - [ ] **Submission timing.**
-  - Application is rolling — no specific window.
-  - My recommendation: submit **after** the billing account is set up (probably 1–2 months from now). Don't submit incomplete.
+  - Application is rolling — no fixed window.
+  - My recommendation: submit after billing account is set up (probably 1–2 months from now). Don't submit incomplete.
 
 - [ ] **Award amount expectations.**
-  - Google doesn't publish the amount per applicant. Public reports vary widely ($5K–$50K typical for academic AI research; outliers higher).
-  - Implication for narrative: don't assume amount; ask for what the project actually needs (which the timeline + costs imply).
+  - Google doesn't publish per-applicant amounts. Range varies widely.
+  - Implication: don't anchor on a specific number; ask for what the project needs.
 
 ---
 
 ## Google Cloud Start
 
-Status: **blocker fundamental** — programa requer empresa incorporada. Otavio não tem. Draft v1 esqueletal documenta o cenário hipotético; não submetido.
+Status: **PARKED** — Otavio explicitly cannot incorporate right now. Re-evaluate when this changes.
 
-### 🔵 Decide (this is the only category that applies — the program itself is blocked until decision)
+### 🔵 Decide
 
-- [ ] **Decidir se incorporar empresa pro Novo CR.**
-  - Source: Google Cloud Start tier requires "less than 5 years from incorporation" + "legitimate business" verification via website.
-  - Coupling: same decision unlocks **OpenAI for Startups** ($2.5K-$5K), **Google Cloud Scale** ($200K, needs VC too), and potentially **AWS Activate** / **Microsoft Founders Hub** later.
-  - Recommendation: **postpone until FGV Ventures responds.** If accepted to batch 20, incorporation becomes natural (FGV Ventures uses Gust ecosystem). If rejected, evaluate standalone.
-  - Where: blocks `programs/google-cloud-start/draft.md`.
+- [ ] **Re-open when:** (a) FGV Ventures accepts into batch 20 (may facilitate incorporation via Gust ecosystem), OR (b) Otavio's circumstances change.
 
-- [ ] **If incorporating: MEI vs Ltda.**
-  - MEI: ~R$0/year registration, ~R$70/month, but has revenue/activity restrictions that may not fit EdTech.
-  - Ltda: ~R$2K-5K initial + ~R$500-1500/month accounting; more flexible.
-  - Action: consult an accountant.
-
-### 🟡 Verify (only relevant if incorporating)
-
-- [ ] **The "no educational institutions" restriction.** Once Otavio incorporates as a private EdTech company (not FGV-owned), this restriction doesn't apply. But framing has to be careful — application should describe the company, not the academic affiliation.
+- [ ] **Backlog (not for this round):**
+  - MEI vs Ltda consultation
+  - Microsoft Founders Hub, AWS Activate, NVIDIA Inception (all incorporation-gated)
 
 ---
 
 ## FGV Ventures batch 20
 
-Status: **email v6 enviado em 2026-05-15.** Aguardando resposta de Isabel Pinheiro e Luciana Cualheta. Set completo de artifacts no repo (criteria, requirements-and-fit, draft com v6 verbatim, loop-log com cronologia).
+Status: **email v6 enviado em 2026-05-15.** 9 dias sem resposta documentada. Aguardando resposta de Isabel Pinheiro e Luciana Cualheta.
 
 ### 🔴 Critical (time-sensitive)
 
-- [ ] **9 dias após envio sem resposta documentada (assumindo envio 2026-05-15).** Decidir follow-up curto no mesmo thread.
-  - My recommendation: **uma mensagem curta** ("queria confirmar que recebem") no thread original, sem novo subject, sem novo conteúdo. Padrão de follow-up em programa estruturado.
-  - Where: pós-envio em `programs/fgv-ventures-batch-20/loop-log.md`.
+- [ ] **Considere follow-up curto no mesmo thread.**
+  - My recommendation: uma mensagem curta ("queria confirmar que recebem") sem novo subject, sem novo conteúdo. Padrão respeitoso para programa estruturado.
 
 ### 🔵 Decide
 
-- [ ] **If they respond with interest:** próximos passos (entrevista, dossiê adicional) — atualizar `loop-log.md` + abrir nova subseção aqui.
-- [ ] **If they accept into batch 20:** isto destrava decisão de incorporação. Re-abrir `programs/google-cloud-start/` e potencialmente criar `programs/openai-startups/`, `programs/microsoft-founders-hub/`, `programs/aws-activate/`.
-- [ ] **If they reject:** registrar feedback no `loop-log.md`; usar como input pra outros aceleradores.
+- [ ] **If they respond with interest:** próximos passos (entrevista, dossiê adicional, decisão sobre inscrição formal no Gust).
 
-### 🟡 Verify (passivo)
+- [ ] **If they accept into batch 20:** isto destrava a decisão de incorporação. Re-abrir Google Cloud Start + considerar OpenAI Startups.
+
+- [ ] **If they reject:** registrar feedback no `loop-log.md`; usar como input pra Microsoft / AWS / NVIDIA.
+
+### 🟡 Verify
 
 - [ ] **Subject do email v6** — confirmar com Otavio se foi com subject específico ou padrão.
-  - Where: `programs/fgv-ventures-batch-20/draft.md` (Subject: a confirmar com Otavio).
 
 ---
 
 ## Closed items
 
-(Items will move here once resolved; keeps history without cluttering active sections.)
+(Items will move here once resolved.)
+
+- ✅ **Anthropic credit ceiling** — corrected from $20K to up to $50K (Otavio shared form 2026-05-24).
+- ✅ **Anthropic form fields** — now fully known (verbatim from Otavio 2026-05-24).
+- ✅ **OpenAI form fields** — now fully known (verbatim from Otavio 2026-05-24).
+- ✅ **Google Cloud Research Field of Research** — Computer Science (Otavio confirmed).
+- ✅ **Otavio cannot incorporate now** — Google Cloud Start moved to PARKED status.

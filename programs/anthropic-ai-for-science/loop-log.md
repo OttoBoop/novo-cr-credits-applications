@@ -254,3 +254,63 @@ Apenas a v3 final fica em `draft.md`; v1 e v2 estão preservadas em git history 
 ---
 
 (v3 estável; loop pausado. Próximas entradas ao retomar.)
+
+---
+
+## Sessão 3 — reescrita pra campos reais do form (v3 → v4) — 2026-05-24
+
+### P4 — Otavio compartilhou os campos verbatim do form
+
+Mudanças que isso traz vs v3:
+1. **Word limits estritos por campo** (Research Team <300, Research Proposal <500, Claude usage 300, Claude acceleration 200, impact 200, applications 200, success metrics 200) — v3 era um texto fluido, v4 precisa mapear ponto-a-ponto.
+2. **Credit ceiling subiu pra até $50K** (eu tinha $20K). 30-min video call se aprovado.
+3. **Novos campos:** Organization ID (Anthropic console), Position/title at organization, Where did you hear, Biosecurity checkbox + explanation, Practical applications (separado de Scientific impact).
+4. **Brazilian researcher cost angle** — Otavio explicitamente pediu pra reforçar.
+5. **"Ongoing since December 2025"** — framing temporal importante.
+
+### A11 — Auto-crítica de v3 (pré-restructure)
+
+v3 não mapeava aos word limits. Texto contínuo precisava virar blocos:
+- §Project summary (v3) → vira §Research Proposal v4 mas tem 360 palavras, dentro do limite 500
+- §Team and institutional affiliation (v3) → vira §Research Team v4 + §Key team members v4 separados
+- §Use of Claude API (v3) → vira §How specifically + §How will Claude accelerate v4
+- §Expected impact (v3) → vira §Scientific impact + §Practical applications + §Success metrics v4 (separados)
+- §Estimated credit usage (v3) → vira §Resource Requirements v4 com ceiling até $50K, não $20K
+
+### A12 — Escrever v4 (restructure completa)
+
+Mudanças aplicadas:
+- Adicionada §Contact information como tabela mapeada aos campos do form
+- Adicionados Scientific field(s) checkboxes (CS + Other: Education)
+- §Research Team escrito do zero com word count target ~280 (sob 300)
+- §Key team members em formato bullet (name, role, brief)
+- §Research Proposal recortado pra cobrir scientific question + methodology + outcomes + timeline em ~360 palavras (sob 500)
+- §How specifically usa Claude com cost data verbatim do subagent (2026-05-24 audit, Doc 14)
+- §How will Claude accelerate em ~98 palavras (sob 200) — foco em (1) structured extraction e (2) long-context cross-course report
+- §Scientific impact em ~75 palavras (sob 200)
+- §Practical applications em ~85 palavras (sob 200) — extensões downstream, NÃO core focus
+- §Success metrics em ~85 palavras (sob 200) com 6 critérios mensuráveis
+- §Resource Requirements com ceiling até $50K + alocação concreta
+- §Biosecurity: ☑ None of the above + LGPD note pra extensões futuras
+- §Additional information com ongoing since Dec 2025, parallel applications declaradas, CNPq companion
+
+### A13 — Auto-crítica de v4
+
+Itens que vou trazer pro REVIEW.md em vez de iterar:
+1. "(institutional FGV email — to fill at submission)" — campo crítico que Otavio precisa preencher
+2. Organization ID Anthropic — precisa criar/identificar pré-submissão
+3. Position/title at organization é ambíguo: Otavio é alumni; Valdemar é Faculty. Resolver no REVIEW (provavelmente Valdemar como ponto institucional)
+4. Frase "Brazilian researchers operate at structural cost disadvantage" — repetida em §Research Team e §Resource Requirements e §Research Proposal. Possivelmente redundante. Mas é deliberada (Otavio pediu reforçar). Manter.
+
+### A14 — Decisão: parar em v4
+
+Mapeamento aos campos reais é mais valioso que mais iterações cosméticas. Próxima ação real: Otavio preenche os campos que dependem dele (org ID, emails, profile links) e revisa o conteúdo dentro de cada bloco.
+
+### A15 — Commit
+
+Files: `draft.md` (v4 restructurada), `loop-log.md` (este).
+Pendências novas no REVIEW.md: Organization ID, position/title, video call prep, credit ceiling corrigido.
+
+---
+
+(v4 mapeada aos campos reais. Loop pausado pendente do Otavio.)
